@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF28A23B2491C332007A412D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28A23A2491C332007A412D /* AppDelegate.swift */; };
+		DF28A23D2491C332007A412D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28A23C2491C332007A412D /* SceneDelegate.swift */; };
+		DF28A23F2491C332007A412D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28A23E2491C332007A412D /* ViewController.swift */; };
+		DF28A2422491C332007A412D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF28A2402491C332007A412D /* Main.storyboard */; };
+		DF28A2442491C333007A412D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF28A2432491C333007A412D /* Assets.xcassets */; };
+		DF28A2472491C333007A412D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF28A2452491C333007A412D /* LaunchScreen.storyboard */; };
+		DF28A2522491C333007A412D /* SimpleWarikanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28A2512491C333007A412D /* SimpleWarikanTests.swift */; };
+		DF28A25D2491C333007A412D /* SimpleWarikanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28A25C2491C333007A412D /* SimpleWarikanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF28A24E2491C333007A412D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF28A22F2491C332007A412D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF28A2362491C332007A412D;
+			remoteInfo = SimpleWarikan;
+		};
+		DF28A2592491C333007A412D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF28A22F2491C332007A412D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF28A2362491C332007A412D;
+			remoteInfo = SimpleWarikan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF28A2372491C332007A412D /* SimpleWarikan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWarikan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF28A23A2491C332007A412D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF28A23C2491C332007A412D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF28A23E2491C332007A412D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF28A2412491C332007A412D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF28A2432491C333007A412D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF28A2462491C333007A412D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF28A2482491C333007A412D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF28A24D2491C333007A412D /* SimpleWarikanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleWarikanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF28A2512491C333007A412D /* SimpleWarikanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWarikanTests.swift; sourceTree = "<group>"; };
+		DF28A2532491C333007A412D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF28A2582491C333007A412D /* SimpleWarikanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleWarikanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF28A25C2491C333007A412D /* SimpleWarikanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWarikanUITests.swift; sourceTree = "<group>"; };
+		DF28A25E2491C333007A412D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF28A2342491C332007A412D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF28A24A2491C333007A412D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF28A2552491C333007A412D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF28A22E2491C332007A412D = {
+			isa = PBXGroup;
+			children = (
+				DF28A2392491C332007A412D /* SimpleWarikan */,
+				DF28A2502491C333007A412D /* SimpleWarikanTests */,
+				DF28A25B2491C333007A412D /* SimpleWarikanUITests */,
+				DF28A2382491C332007A412D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF28A2382491C332007A412D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF28A2372491C332007A412D /* SimpleWarikan.app */,
+				DF28A24D2491C333007A412D /* SimpleWarikanTests.xctest */,
+				DF28A2582491C333007A412D /* SimpleWarikanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF28A2392491C332007A412D /* SimpleWarikan */ = {
+			isa = PBXGroup;
+			children = (
+				DF28A23A2491C332007A412D /* AppDelegate.swift */,
+				DF28A23C2491C332007A412D /* SceneDelegate.swift */,
+				DF28A23E2491C332007A412D /* ViewController.swift */,
+				DF28A2402491C332007A412D /* Main.storyboard */,
+				DF28A2432491C333007A412D /* Assets.xcassets */,
+				DF28A2452491C333007A412D /* LaunchScreen.storyboard */,
+				DF28A2482491C333007A412D /* Info.plist */,
+			);
+			path = SimpleWarikan;
+			sourceTree = "<group>";
+		};
+		DF28A2502491C333007A412D /* SimpleWarikanTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF28A2512491C333007A412D /* SimpleWarikanTests.swift */,
+				DF28A2532491C333007A412D /* Info.plist */,
+			);
+			path = SimpleWarikanTests;
+			sourceTree = "<group>";
+		};
+		DF28A25B2491C333007A412D /* SimpleWarikanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF28A25C2491C333007A412D /* SimpleWarikanUITests.swift */,
+				DF28A25E2491C333007A412D /* Info.plist */,
+			);
+			path = SimpleWarikanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF28A2362491C332007A412D /* SimpleWarikan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF28A2612491C333007A412D /* Build configuration list for PBXNativeTarget "SimpleWarikan" */;
+			buildPhases = (
+				DF28A2332491C332007A412D /* Sources */,
+				DF28A2342491C332007A412D /* Frameworks */,
+				DF28A2352491C332007A412D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleWarikan;
+			productName = SimpleWarikan;
+			productReference = DF28A2372491C332007A412D /* SimpleWarikan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF28A24C2491C333007A412D /* SimpleWarikanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF28A2642491C333007A412D /* Build configuration list for PBXNativeTarget "SimpleWarikanTests" */;
+			buildPhases = (
+				DF28A2492491C333007A412D /* Sources */,
+				DF28A24A2491C333007A412D /* Frameworks */,
+				DF28A24B2491C333007A412D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF28A24F2491C333007A412D /* PBXTargetDependency */,
+			);
+			name = SimpleWarikanTests;
+			productName = SimpleWarikanTests;
+			productReference = DF28A24D2491C333007A412D /* SimpleWarikanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF28A2572491C333007A412D /* SimpleWarikanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF28A2672491C333007A412D /* Build configuration list for PBXNativeTarget "SimpleWarikanUITests" */;
+			buildPhases = (
+				DF28A2542491C333007A412D /* Sources */,
+				DF28A2552491C333007A412D /* Frameworks */,
+				DF28A2562491C333007A412D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF28A25A2491C333007A412D /* PBXTargetDependency */,
+			);
+			name = SimpleWarikanUITests;
+			productName = SimpleWarikanUITests;
+			productReference = DF28A2582491C333007A412D /* SimpleWarikanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF28A22F2491C332007A412D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "副島拓哉";
+				TargetAttributes = {
+					DF28A2362491C332007A412D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					DF28A24C2491C333007A412D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = DF28A2362491C332007A412D;
+					};
+					DF28A2572491C333007A412D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = DF28A2362491C332007A412D;
+					};
+				};
+			};
+			buildConfigurationList = DF28A2322491C332007A412D /* Build configuration list for PBXProject "SimpleWarikan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF28A22E2491C332007A412D;
+			productRefGroup = DF28A2382491C332007A412D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF28A2362491C332007A412D /* SimpleWarikan */,
+				DF28A24C2491C333007A412D /* SimpleWarikanTests */,
+				DF28A2572491C333007A412D /* SimpleWarikanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF28A2352491C332007A412D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF28A2472491C333007A412D /* LaunchScreen.storyboard in Resources */,
+				DF28A2442491C333007A412D /* Assets.xcassets in Resources */,
+				DF28A2422491C332007A412D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF28A24B2491C333007A412D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF28A2562491C333007A412D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF28A2332491C332007A412D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF28A23F2491C332007A412D /* ViewController.swift in Sources */,
+				DF28A23B2491C332007A412D /* AppDelegate.swift in Sources */,
+				DF28A23D2491C332007A412D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF28A2492491C333007A412D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF28A2522491C333007A412D /* SimpleWarikanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF28A2542491C333007A412D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF28A25D2491C333007A412D /* SimpleWarikanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF28A24F2491C333007A412D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF28A2362491C332007A412D /* SimpleWarikan */;
+			targetProxy = DF28A24E2491C333007A412D /* PBXContainerItemProxy */;
+		};
+		DF28A25A2491C333007A412D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF28A2362491C332007A412D /* SimpleWarikan */;
+			targetProxy = DF28A2592491C333007A412D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF28A2402491C332007A412D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF28A2412491C332007A412D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF28A2452491C333007A412D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF28A2462491C333007A412D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF28A25F2491C333007A412D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF28A2602491C333007A412D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF28A2622491C333007A412D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = SimpleWarikan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.SimpleWarikan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF28A2632491C333007A412D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = SimpleWarikan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.SimpleWarikan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF28A2652491C333007A412D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = SimpleWarikanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.SimpleWarikanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleWarikan.app/SimpleWarikan";
+			};
+			name = Debug;
+		};
+		DF28A2662491C333007A412D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = SimpleWarikanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.SimpleWarikanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleWarikan.app/SimpleWarikan";
+			};
+			name = Release;
+		};
+		DF28A2682491C333007A412D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = SimpleWarikanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.SimpleWarikanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleWarikan;
+			};
+			name = Debug;
+		};
+		DF28A2692491C333007A412D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = SimpleWarikanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.SimpleWarikanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleWarikan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF28A2322491C332007A412D /* Build configuration list for PBXProject "SimpleWarikan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF28A25F2491C333007A412D /* Debug */,
+				DF28A2602491C333007A412D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF28A2612491C333007A412D /* Build configuration list for PBXNativeTarget "SimpleWarikan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF28A2622491C333007A412D /* Debug */,
+				DF28A2632491C333007A412D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF28A2642491C333007A412D /* Build configuration list for PBXNativeTarget "SimpleWarikanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF28A2652491C333007A412D /* Debug */,
+				DF28A2662491C333007A412D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF28A2672491C333007A412D /* Build configuration list for PBXNativeTarget "SimpleWarikanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF28A2682491C333007A412D /* Debug */,
+				DF28A2692491C333007A412D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF28A22F2491C332007A412D /* Project object */;
+}
